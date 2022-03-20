@@ -28,5 +28,8 @@
     "@types/morgan": "^1.9.3",
     "nodemon": "^2.0.15"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": "16.3.1"
+  }
 }
