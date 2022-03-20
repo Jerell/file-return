@@ -7,7 +7,7 @@ import { dirname } from "path";
 var __filename = fileURLToPath(import.meta.url);
 var __dirname = dirname(__filename);
 var app = express();
-var port = 3000;
+var port = process.env.PORT || 3000;
 app.use(logger("dev"));
 app.use(express.static("public"));
 app.get("/", function (req, res) {
